@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="docker-compose.yml" />
+    <File Path="dotnet-tools.json" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/TaskManagement.Application/TaskManagement.Application.csproj" />
+    <Project Path="src/TaskManagement.ConsoleDemo/TaskManagement.ConsoleDemo.csproj" />
+    <Project Path="src/TaskManagement.Domain/TaskManagement.Domain.csproj" />
+    <Project Path="src/TaskManagement.Infrastructure/TaskManagement.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TaskManagement.Application.Tests/TaskManagement.Application.Tests.csproj" />
+    <Project Path="tests/TaskManagement.Domain.Tests/TaskManagement.Domain.Tests.csproj" />
+    <Project Path="tests/TaskManagement.Infrastructure.IntegrationTests/TaskManagement.Infrastructure.IntegrationTests.csproj" />
+  </Folder>
+</Solution>

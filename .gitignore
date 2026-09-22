@@ -1,0 +1,16 @@
+bin/
+obj/
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.userprefs
+TestResults/
+**/TestResults/
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
+Thumbs.db
+*.log
